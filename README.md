@@ -1,21 +1,20 @@
-# vue-music
+# 移动端webqq音乐播放器
+</br></br>
+>* 项目预览：https://86driver.github.io/Magua-Music/dist </br></br>
+  因为个人时间原因和webqq音乐接口做了限制，可能线上无法正常预览，如果需要可移步下载
 
-> a music webapp
+## 介绍
+> 基于 vue2.0 + vuex + vue-router + ES6 + webpack + better-scroll 的单页面应用  </br></br>
 
-## Build Setup
+## 联系作者：
+>* 微信：a610410574
+>* QQ：610410574
 
-``` bash
-# install dependencies
-npm install
+## 所用知识
+>* `vue全家桶`
+>* `用到的插件都可以在package.json看到`
+</br></br>
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 运行
+>* `npm install`
+>* `npm run dev`
