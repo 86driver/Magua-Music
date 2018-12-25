@@ -60,7 +60,8 @@
       },
       _getRecommend() {
         getRecommend().then(res => {
-          this.recommends = res.data.data
+          // this.recommends = res.data.data 使用axios用这条
+          this.recommends = res.data
         })
       },
       selectCd(data) {

@@ -73,7 +73,8 @@
       },
       _getCdList() {
         getCdList(parseInt(this.$route.params.id)).then((res) => {
-          this.cdList = res.data.cdlist[0]
+          // this.cdList = res.data.cdlist[0] 这条用于axios请求
+          this.cdList = res.cdlist[0]
           let list = this.cdList.songlist.slice(this.begin, this.finish)
           this._formatSong(list)
         })
@@ -83,7 +84,8 @@
         let obj = {}
         list.forEach((list, index) => {
           getSongVkey(list.mid).then(res => {
-            this.songVkey = res.data.data.items[0].vkey
+            // this.songVkey = res.data.data.items[0].vkey 这条用于axios请求
+            this.songVkey = res.data.items[0].vkey
             obj.id = list.id
             obj.mid = list.mid
             obj.album = list.album.mid

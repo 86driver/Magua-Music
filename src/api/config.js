@@ -7,3 +7,7 @@ export const commonParams = {
   platform: 'h5',
   uin: 0
 }
+
+export const options = {
+  param: 'jsonpCallback'
+}
